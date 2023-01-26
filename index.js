@@ -42,6 +42,7 @@ formValue.addEventListener("submit", ()=>{
 })
 
 // need to save the value of score in local Storage, if not it refreshes every time we click submit
+//have to pass score in as a string
 function localStorageUpdate(){
     localStorage.setItem("score", JSON.stringify(score));
 }
